@@ -22,11 +22,6 @@ public class Funcionario {
 	}
 
 	// 3
-	Funcionario(String name, String sexo, int data_Nacs) {
-		Name = name;
-		Sexo = sexo;
-		Data_Nacs = data_Nacs;
-	}
 
 	// metudos
 	public String getName() {
@@ -56,6 +51,10 @@ public class Funcionario {
 
 	public void FuncionariaAdd() {
 		System.err.println("Adicionar funcionario");
+	}
+
+	public void dataNacsMento() {
+		this.Data_Nacs = 10;
 	}
 
 }
